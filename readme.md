@@ -2,10 +2,13 @@
 and username = root
 password = password
 
-run 
-1-composer install
-2-php artisan migrate --seed
-3-php artisan serve 
+install Docker and run :
+*docker-compose build
+*docker-compose up -d
+
+*composer install
+*php artisan migrate --seed
+*php artisan serve 
 
 login with  users :
         email = 'ahmed@solera.com';
